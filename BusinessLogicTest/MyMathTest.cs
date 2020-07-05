@@ -8,7 +8,7 @@ namespace BusinessLogicTest
         [Test]
         [TestCase(9, 18, 27)]
         [TestCase(10, 30, 40)]
-        [TestCase(4, 4, 5)]
+        [TestCase(4, 4, 4)]
         public void TestGcd(int result, int a, int b)
         {
             var myMath = new MyMath();
